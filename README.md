@@ -1,6 +1,6 @@
 # ViolaClef
 
-ViolaClef is a swift project I've made to practice TDD and the things I've learned from a book I've read recently and really liked called `iOS Unit Testing by Example XCTest Tips and Techniques Using Swift by Jon Reid`
+ViolaClef is a swift project I've made to practice TDD and the things I've learned from a book I've read recently and really liked called `iOS Unit Testing by Example XCTest Tips and Techniques Using Swift by Jon Reid`.
 
 I've paid way more attention to the code and the tests than the UI of the application, the way we code is as important as the UI.
 
