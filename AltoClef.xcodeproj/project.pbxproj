@@ -9,24 +9,26 @@
 /* Begin PBXBuildFile section */
 		2E3CE1542817353900710F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1532817353900710F2B /* AppDelegate.swift */; };
 		2E3CE1562817353900710F2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1552817353900710F2B /* SceneDelegate.swift */; };
-		2E3CE1582817353900710F2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1572817353900710F2B /* ViewController.swift */; };
-		2E3CE15B2817353900710F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CE1592817353900710F2B /* Main.storyboard */; };
+		2E3CE1582817353900710F2B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1572817353900710F2B /* GameViewController.swift */; };
 		2E3CE15D2817353A00710F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CE15C2817353A00710F2B /* Assets.xcassets */; };
 		2E3CE1602817353A00710F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CE15E2817353A00710F2B /* LaunchScreen.storyboard */; };
-		2E3CE16B2817353B00710F2B /* AltoClefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE16A2817353B00710F2B /* AltoClefTests.swift */; };
-		2E3CE1752817353B00710F2B /* AltoClefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1742817353B00710F2B /* AltoClefUITests.swift */; };
-		2E3CE1772817353B00710F2B /* AltoClefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE1762817353B00710F2B /* AltoClefUITestsLaunchTests.swift */; };
+		2E3CE16B2817353B00710F2B /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CE16A2817353B00710F2B /* GameViewModelTests.swift */; };
+		2E4A12FA2818053600273B82 /* GameViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A12F92818053600273B82 /* GameViewControllerTests.swift */; };
+		2E4A12FC281815DF00273B82 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A12FB281815DF00273B82 /* Helpers.swift */; };
+		2E6B69DC28195B5E008682A9 /* NotesInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B69DB28195B5E008682A9 /* NotesInformation.swift */; };
+		2E817CA6281AB726006E41B7 /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E817CA5281AB726006E41B7 /* ChoicesView.swift */; };
+		2E817CA8281AC156006E41B7 /* ChoicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E817CA7281AC156006E41B7 /* ChoicesCollectionViewCell.swift */; };
+		2E817CAA281AC19A006E41B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E817CA9281AC19A006E41B7 /* Extensions.swift */; };
+		2E88F15E2817409600F3C774 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88F15D2817409600F3C774 /* GameViewModel.swift */; };
+		2E88F1612817411000F3C774 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88F1602817411000F3C774 /* Notes.swift */; };
+		2E88F164281741D100F3C774 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88F163281741D100F3C774 /* TestingAppDelegate.swift */; };
+		2E88F1662817427500F3C774 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88F1652817427500F3C774 /* main.swift */; };
+		2E88F1682817448000F3C774 /* LeftArmFingers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88F1672817448000F3C774 /* LeftArmFingers.swift */; };
+		2EE43170281C208C00192CF0 /* NotesWithoutOctaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE4316F281C208C00192CF0 /* NotesWithoutOctaves.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2E3CE1672817353B00710F2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E3CE1482817353900710F2B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E3CE14F2817353900710F2B;
-			remoteInfo = AltoClef;
-		};
-		2E3CE1712817353B00710F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2E3CE1482817353900710F2B /* Project object */;
 			proxyType = 1;
@@ -39,16 +41,24 @@
 		2E3CE1502817353900710F2B /* AltoClef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltoClef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3CE1532817353900710F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E3CE1552817353900710F2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E3CE1572817353900710F2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E3CE15A2817353900710F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3CE1572817353900710F2B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2E3CE15C2817353A00710F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E3CE15F2817353A00710F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E3CE1612817353A00710F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3CE1662817353B00710F2B /* AltoClefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltoClefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E3CE16A2817353B00710F2B /* AltoClefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoClefTests.swift; sourceTree = "<group>"; };
-		2E3CE1702817353B00710F2B /* AltoClefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltoClefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E3CE1742817353B00710F2B /* AltoClefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoClefUITests.swift; sourceTree = "<group>"; };
-		2E3CE1762817353B00710F2B /* AltoClefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltoClefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E3CE16A2817353B00710F2B /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
+		2E4A12F92818053600273B82 /* GameViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerTests.swift; sourceTree = "<group>"; };
+		2E4A12FB281815DF00273B82 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2E6B69DB28195B5E008682A9 /* NotesInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesInformation.swift; sourceTree = "<group>"; };
+		2E817CA5281AB726006E41B7 /* ChoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesView.swift; sourceTree = "<group>"; };
+		2E817CA7281AC156006E41B7 /* ChoicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesCollectionViewCell.swift; sourceTree = "<group>"; };
+		2E817CA9281AC19A006E41B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2E88F15D2817409600F3C774 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		2E88F1602817411000F3C774 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		2E88F163281741D100F3C774 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		2E88F1652817427500F3C774 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2E88F1672817448000F3C774 /* LeftArmFingers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftArmFingers.swift; sourceTree = "<group>"; };
+		2EE4316F281C208C00192CF0 /* NotesWithoutOctaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesWithoutOctaves.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E3CE16D2817353B00710F2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +84,6 @@
 			children = (
 				2E3CE1522817353900710F2B /* AltoClef */,
 				2E3CE1692817353B00710F2B /* AltoClefTests */,
-				2E3CE1732817353B00710F2B /* AltoClefUITests */,
 				2E3CE1512817353900710F2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +93,6 @@
 			children = (
 				2E3CE1502817353900710F2B /* AltoClef.app */,
 				2E3CE1662817353B00710F2B /* AltoClefTests.xctest */,
-				2E3CE1702817353B00710F2B /* AltoClefUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +100,11 @@
 		2E3CE1522817353900710F2B /* AltoClef */ = {
 			isa = PBXGroup;
 			children = (
-				2E3CE1532817353900710F2B /* AppDelegate.swift */,
-				2E3CE1552817353900710F2B /* SceneDelegate.swift */,
-				2E3CE1572817353900710F2B /* ViewController.swift */,
-				2E3CE1592817353900710F2B /* Main.storyboard */,
-				2E3CE15C2817353A00710F2B /* Assets.xcassets */,
-				2E3CE15E2817353A00710F2B /* LaunchScreen.storyboard */,
-				2E3CE1612817353A00710F2B /* Info.plist */,
+				2E88F15F2817410000F3C774 /* Model */,
+				2E817CA4281AAB08006E41B7 /* View */,
+				2E88F15C2817406900F3C774 /* ViewModel */,
+				2E88F15B28173CBD00F3C774 /* Controller */,
+				2E88F15A28173CA800F3C774 /* Assets */,
 			);
 			path = AltoClef;
 			sourceTree = "<group>";
@@ -113,18 +112,70 @@
 		2E3CE1692817353B00710F2B /* AltoClefTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E3CE16A2817353B00710F2B /* AltoClefTests.swift */,
+				2E88F162281741BA00F3C774 /* TestingHelpers */,
+				2E3CE16A2817353B00710F2B /* GameViewModelTests.swift */,
+				2E4A12F92818053600273B82 /* GameViewControllerTests.swift */,
 			);
 			path = AltoClefTests;
 			sourceTree = "<group>";
 		};
-		2E3CE1732817353B00710F2B /* AltoClefUITests */ = {
+		2E817CA4281AAB08006E41B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2E3CE1742817353B00710F2B /* AltoClefUITests.swift */,
-				2E3CE1762817353B00710F2B /* AltoClefUITestsLaunchTests.swift */,
+				2E817CA5281AB726006E41B7 /* ChoicesView.swift */,
+				2E817CA7281AC156006E41B7 /* ChoicesCollectionViewCell.swift */,
 			);
-			path = AltoClefUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E88F15A28173CA800F3C774 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2E88F1652817427500F3C774 /* main.swift */,
+				2E817CA9281AC19A006E41B7 /* Extensions.swift */,
+				2E3CE1532817353900710F2B /* AppDelegate.swift */,
+				2E3CE1552817353900710F2B /* SceneDelegate.swift */,
+				2E3CE15E2817353A00710F2B /* LaunchScreen.storyboard */,
+				2E3CE15C2817353A00710F2B /* Assets.xcassets */,
+				2E3CE1612817353A00710F2B /* Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2E88F15B28173CBD00F3C774 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E3CE1572817353900710F2B /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E88F15C2817406900F3C774 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E88F15D2817409600F3C774 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E88F15F2817410000F3C774 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E88F1602817411000F3C774 /* Notes.swift */,
+				2EE4316F281C208C00192CF0 /* NotesWithoutOctaves.swift */,
+				2E88F1672817448000F3C774 /* LeftArmFingers.swift */,
+				2E6B69DB28195B5E008682A9 /* NotesInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E88F162281741BA00F3C774 /* TestingHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				2E88F163281741D100F3C774 /* TestingAppDelegate.swift */,
+				2E4A12FB281815DF00273B82 /* Helpers.swift */,
+			);
+			path = TestingHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +216,6 @@
 			productReference = 2E3CE1662817353B00710F2B /* AltoClefTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2E3CE16F2817353B00710F2B /* AltoClefUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E3CE1802817353B00710F2B /* Build configuration list for PBXNativeTarget "AltoClefUITests" */;
-			buildPhases = (
-				2E3CE16C2817353B00710F2B /* Sources */,
-				2E3CE16D2817353B00710F2B /* Frameworks */,
-				2E3CE16E2817353B00710F2B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E3CE1722817353B00710F2B /* PBXTargetDependency */,
-			);
-			name = AltoClefUITests;
-			productName = AltoClefUITests;
-			productReference = 2E3CE1702817353B00710F2B /* AltoClefUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +230,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					2E3CE1652817353B00710F2B = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 2E3CE14F2817353900710F2B;
-					};
-					2E3CE16F2817353B00710F2B = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 2E3CE14F2817353900710F2B;
 					};
@@ -221,7 +250,6 @@
 			targets = (
 				2E3CE14F2817353900710F2B /* AltoClef */,
 				2E3CE1652817353B00710F2B /* AltoClefTests */,
-				2E3CE16F2817353B00710F2B /* AltoClefUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +261,10 @@
 			files = (
 				2E3CE1602817353A00710F2B /* LaunchScreen.storyboard in Resources */,
 				2E3CE15D2817353A00710F2B /* Assets.xcassets in Resources */,
-				2E3CE15B2817353900710F2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2E3CE1642817353B00710F2B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E3CE16E2817353B00710F2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,8 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3CE1582817353900710F2B /* ViewController.swift in Sources */,
+				2E6B69DC28195B5E008682A9 /* NotesInformation.swift in Sources */,
+				2E817CA6281AB726006E41B7 /* ChoicesView.swift in Sources */,
+				2EE43170281C208C00192CF0 /* NotesWithoutOctaves.swift in Sources */,
+				2E88F15E2817409600F3C774 /* GameViewModel.swift in Sources */,
+				2E817CA8281AC156006E41B7 /* ChoicesCollectionViewCell.swift in Sources */,
+				2E88F1682817448000F3C774 /* LeftArmFingers.swift in Sources */,
+				2E88F1612817411000F3C774 /* Notes.swift in Sources */,
+				2E88F1662817427500F3C774 /* main.swift in Sources */,
+				2E3CE1582817353900710F2B /* GameViewController.swift in Sources */,
 				2E3CE1542817353900710F2B /* AppDelegate.swift in Sources */,
+				2E817CAA281AC19A006E41B7 /* Extensions.swift in Sources */,
 				2E3CE1562817353900710F2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3CE16B2817353B00710F2B /* AltoClefTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E3CE16C2817353B00710F2B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E3CE1772817353B00710F2B /* AltoClefUITestsLaunchTests.swift in Sources */,
-				2E3CE1752817353B00710F2B /* AltoClefUITests.swift in Sources */,
+				2E3CE16B2817353B00710F2B /* GameViewModelTests.swift in Sources */,
+				2E4A12FA2818053600273B82 /* GameViewControllerTests.swift in Sources */,
+				2E88F164281741D100F3C774 /* TestingAppDelegate.swift in Sources */,
+				2E4A12FC281815DF00273B82 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,22 +312,9 @@
 			target = 2E3CE14F2817353900710F2B /* AltoClef */;
 			targetProxy = 2E3CE1672817353B00710F2B /* PBXContainerItemProxy */;
 		};
-		2E3CE1722817353B00710F2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E3CE14F2817353900710F2B /* AltoClef */;
-			targetProxy = 2E3CE1712817353B00710F2B /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E3CE1592817353900710F2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E3CE15A2817353900710F2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E3CE15E2817353A00710F2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,10 +451,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V5VQYUUC2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AltoClef/Info.plist;
+				INFOPLIST_FILE = AltoClef/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,10 +479,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V5VQYUUC2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AltoClef/Info.plist;
+				INFOPLIST_FILE = AltoClef/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -528,42 +538,6 @@
 			};
 			name = Release;
 		};
-		2E3CE1812817353B00710F2B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V5VQYUUC2D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alnajjar.AltoClefUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AltoClef;
-			};
-			name = Debug;
-		};
-		2E3CE1822817353B00710F2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V5VQYUUC2D;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alnajjar.AltoClefUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AltoClef;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,15 +564,6 @@
 			buildConfigurations = (
 				2E3CE17E2817353B00710F2B /* Debug */,
 				2E3CE17F2817353B00710F2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E3CE1802817353B00710F2B /* Build configuration list for PBXNativeTarget "AltoClefUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E3CE1812817353B00710F2B /* Debug */,
-				2E3CE1822817353B00710F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
