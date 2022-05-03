@@ -161,10 +161,10 @@
 		2E88F15F2817410000F3C774 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E6B69DB28195B5E008682A9 /* NotesInformation.swift */,
 				2E88F1602817411000F3C774 /* Notes.swift */,
 				2EE4316F281C208C00192CF0 /* NotesWithoutOctaves.swift */,
 				2E88F1672817448000F3C774 /* LeftArmFingers.swift */,
-				2E6B69DB28195B5E008682A9 /* NotesInformation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
