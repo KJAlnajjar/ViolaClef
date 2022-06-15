@@ -7,11 +7,6 @@
 
 import UIKit
 
-enum QuestionTypes {
-    case notes
-    case leftArmFingers
-}
-
 class ChoicesView: UIView {
     
     private var choices = [String]()
